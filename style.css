@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: hsl(217, 54%, 11%);
+    max-width: 1440px;
+    height: 100%;
+}
+.card {
+    position: relative;
+    margin: 150px auto 100px auto;;
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 650px;
+    border-radius: 20px;
+}
+.view-icon {
+    position: absolute;
+    opacity: 0%;
+    top: 35px;
+    left: 32px;
+    padding: 150px;
+    padding-right: 140px;
+    padding-bottom: 140px;
+    padding-left: 150px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.view-icon:hover {
+    opacity: 100%;
+    background-color: hsl(178, 100%, 50%, 40%);
+}
+.equilibrium {
+    margin: 35px auto 25px auto;
+    width: 85%;
+    border-radius: 15px;
+}
+.text {
+    width: 85%;
+    margin: 0 auto;
+    font-family: 'Outfit', sans-serif;
+}
+h1 {
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+}
+h1:hover {
+    color: hsl(178, 100%, 50%);
+}
+h2 {
+    font-weight: 300;
+    margin-top: 20px;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+.stats {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;;
+}
+.value {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    font-weight: 600;;
+    color: hsl(178, 100%, 50%);
+}
+.days-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 110px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;;
+}
+hr {
+    border: 0.5px solid hsl(215, 32%, 27%);
+    border-radius: 50%;
+}
+.creator {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+.creator img {
+    width: 12%;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.creation-of {
+    color: hsl(215, 51%, 70%);
+}
+.name {
+    cursor: pointer;
+    margin-left: 5px;
+    color: white;
+}
+.name:hover {
+    color: hsl(178, 100%, 50%);
+}
+.attribution {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
